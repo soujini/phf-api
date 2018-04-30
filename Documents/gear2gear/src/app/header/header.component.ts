@@ -7,6 +7,7 @@ import { AuthService } from './../auth/auth.service';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
+  activeMenu:string="home";
 
   constructor(public auth : AuthService) { }
 
