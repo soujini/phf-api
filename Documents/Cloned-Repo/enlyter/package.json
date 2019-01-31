@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "postinstall": "ng build -c production"
   },
   "private": true,
   "dependencies": {
@@ -25,9 +26,11 @@
     "chart.js": "^2.5.0",
     "core-js": "^2.5.4",
     "easy-pie-chart": "^2.1.7",
+    "express": "^4.16.4",
     "font-awesome": "^4.7.0",
     "hammerjs": "^2.0.8",
     "ng-uikit-pro-standard": "git+https://oauth2:CqhB2PUi7UxFqi7XbSWW@git.mdbootstrap.com/mdb/angular/ng-uikit-pro-standard.git",
+    "path": "^0.12.7",
     "rxjs": "~6.2.0",
     "screenfull": "^3.3.0",
     "zone.js": "~0.8.26"
@@ -53,5 +56,9 @@
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
     "typescript": "~2.9.2"
+  },
+  "engines": {
+    "node": "10.0.0",
+    "npm": "6.0.0"
   }
 }
