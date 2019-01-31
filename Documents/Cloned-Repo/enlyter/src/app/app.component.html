@@ -1,0 +1,110 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="bla" style="text-align:center;">
+  <mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark bg-transparent">
+    <mdb-navbar-brand  style="padding:20px">
+      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+      <img src="./src/assets/logo.png" width="400" height="90"/>
+    </mdb-navbar-brand>
+    <links>
+      <div class="navbar-nav ml-auto header-nav">
+        <a class="nav-item nav-link active waves-light" href="#" mdbWavesEffect>Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link waves-light" href="#" mdbWavesEffect>The Problem</a>
+        <a class="nav-item nav-link waves-light" href="#" mdbWavesEffect>Our Solution</a>
+        <a class="nav-item nav-link waves-light" href="#">Contact</a>
+      </div>
+    </links>
+  </mdb-navbar>
+
+  <mdb-carousel class="carousel slide carousel-fade" [animation]="'fade'">
+    <mdb-carousel-item>
+      <div class="view w-100">
+        <img class="d-block w-100" src="https://enlyter.com/static/images/blur.jpg" height="500px" alt="First slide">
+        <div class="mask rgba-black-light waves-light" mdbWavesEffect></div>
+      </div>
+      <div class="carousel-caption row">
+        <div class="col-6">
+          <h1 class="h1-responsive text-left">Enlyter is a non-profit that provides people with a summary on how companies use their private information.</h1>
+        </div>
+        <div class="col-6" style="top:15%">
+          <button mdbBtn type="button" color="default" mdbWavesEffect>Test Our Service</button>
+          <!-- <h5>Safeguard Your Privacy</h5> -->
+          <button mdbBtn type="button" color="default" mdbWavesEffect>Download our free Chrome Extension
+          </button>
+        </div>
+      </div>
+    </mdb-carousel-item>
+    <mdb-carousel-item>
+      <div class="view w-100">
+        <img class="d-block w-100" src="https://enlyter.com/static/images/blur.jpg" height="500px" alt="First slide">
+        <div class="mask rgba-black-light waves-light" mdbWavesEffect></div>
+      </div>
+      <div class="carousel-caption">
+        <h5>Want to see whose doing what with your information?</h5>
+        <h1 class="h1-responsive">Enter a website URL and click on analyze</h1>
+        <p>(Ex: www.google.com)</p>
+        <div class="md-form" >
+          <input mdbInputDirective type="text" id="form1" class="form-control">
+          <label for="form1" class="">Website URL</label>
+        </div>
+        <button mdbBtn type="button" color="default" mdbWavesEffect >Analyze
+        </button>
+      </div>
+    </mdb-carousel-item>
+    <mdb-carousel-item>
+      <div class="view w-100">
+        <img class="d-block w-100" src="https://enlyter.com/static/images/blur.jpg" height="500px" alt="First slide">
+        <div class="mask rgba-black-light waves-light" mdbWavesEffect></div>
+      </div>
+      <div class="carousel-caption">
+        <h5>Want to see whose doing what with your information?</h5>
+        <div class="row">
+        <div class="col-5">
+        <h1 class="h1-responsive2">Enter a website URL and click on analyze</h1>
+        <p>Ex: www.google.com</p>
+        <div class="md-form" style="margin-top:80px;" >
+          <input mdbInputDirective type="text" id="form1" class="form-control">
+          <label for="form1" class="">Website URL</label>
+        </div>
+        <button mdbBtn type="button" color="default" mdbWavesEffect >Analyze
+        </button>
+        </div>
+
+        <div class="col-2">
+          <h1 class="h1-responsive-or">OR</h1>
+          </div>
+          <div class="col-5">
+<h1 xclass="h1-responsive">Enter your privacy policy here</h1>
+            <div class="md-form">
+  <textarea class="md-textarea form-control " rows="3" id="input_text" type="text" length="2000" mdbCharCounter mdbInputDirective></textarea>
+  <label for="input_text">Privacy Policy</label>
+</div>
+            </div>
+            </div>
+      </div>
+    </mdb-carousel-item>
+    <mdb-carousel-item>
+      <div class="view w-100">
+        <img class="d-block w-100" src="https://enlyter.com/static/images/blur.jpg" height="500px" alt="First slide">
+        <div class="mask rgba-black-light waves-light" mdbWavesEffect></div>
+      </div>
+      <div class="carousel-caption">
+        <h1 class="h1-responsive" >Have you clicked on, </h1>
+        <mdb-checkbox [checked]="true"><h5 >"I have read and agreed to the Terms of Service and the Privacy Policy?"</h5></mdb-checkbox>
+        <h1 style="color:Red">...and never read a word?</h1>
+        <h1 class="h1-responsive">You're not alone, 97% do not read them!</h1>
+      </div>
+    </mdb-carousel-item>
+    <mdb-carousel-item>
+      <div class="view w-100">
+        <img class="d-block w-100" src="https://enlyter.com/static/images/blur.jpg" height="500px" alt="First slide">
+        <div class="mask rgba-black-light waves-light" mdbWavesEffect></div>
+      </div>
+      <div class="carousel-caption">
+        <h1 class="h1-responsive">Grab your free Chrome Extension and have some peace of mind</h1>
+        <button mdbBtn type="button" color="default" mdbWavesEffect >Download our free Chrome Extension
+        </button>
+      </div>
+    </mdb-carousel-item>
+
+  </mdb-carousel>
+</div>

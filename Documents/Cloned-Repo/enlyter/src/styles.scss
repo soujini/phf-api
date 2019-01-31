@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+  // background-image: url('/assets/hero-bg.jpg');
+  background-color: #111;
+  color:#e5e5e5;
+  background-size: cover; /* or contain depending on what you want */
+  // background-position: center center;
+  // background-repeat: no-repeat;
+  // text-align:center;
+  // margin:auto;
+  // padding:0;
+}
+.btn-default {
+  background-color: #407e78 !important;
+  border:1px solid #3b6879;
+  color:white !important;
+}
+
+.carousel{
+}
+.carousel .carousel-control-next-icon {
+  width: 50px !important;
+  height: 50px !important;
+}
+.carousel .carousel-control-prev-icon {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.carousel-caption {
+  top:35px !important;
+}
+h1{
+  margin-top:35px !important;
+}
+button{
+  margin-top:35px !important;
+}
