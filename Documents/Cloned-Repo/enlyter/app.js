@@ -5,10 +5,10 @@ const path = require('path');
 const app = express();
 
 // Serve only the static files form the dist directory
-app.use(express.static(path.join(__dirname, '/enlyter/dist')));
+app.use(express.static(path.join(__dirname, 'dist')));
 
 app.get('*', (req,res) => {
-  res.sendFile(path.join(__dirname, '/enlyter/dist/enlyter/index.html'));
+  res.sendFile(path.join(__dirname, 'dist/enlyter/index.html'));
 });
 
 // Start the app by listening on the default Heroku port
