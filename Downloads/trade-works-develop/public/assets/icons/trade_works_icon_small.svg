@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="48px" viewBox="0 0 41 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Group 6 Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 48 40.1358462 48 40.1358462 0 0 0"></polygon>
+    </defs>
+    <g id="L-Individual-Profile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="L00H---TW-Home-Page" transform="translate(-27.000000, -4.000000)">
+            <g id="Group-6-Copy-2" transform="translate(27.000000, 4.000000)">
+                <path d="M40.1339077,11.3536 C40.1339077,7.0944 36.7383692,5.136 33.7014462,4.6528 C30.6677538,4.1664 28.1219077,1.792 27.3368308,1.1584 C26.5549846,0.5312 25.6245231,0 23.5471385,0 L16.5880615,0 C14.5106769,0 13.5802154,0.5312 12.7983692,1.1584 C12.0132923,1.792 9.46744615,4.1664 6.43375385,4.6528 C3.39683077,5.136 0.00129230769,6.9632 0.00129230769,11.2192 L15.1471385,11.2192 L15.1471385,48 L24.6456,48 L24.6456,11.2192 L40.1339077,11.3536 Z" id="Fill-1" fill="#010202"></path>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-4"></g>
+                <polygon id="Fill-3" fill="#FEFEFE" mask="url(#mask-2)" points="16.6901538 46.5088 23.2421538 46.5088 23.2421538 1.4816 16.6901538 1.4816"></polygon>
+                <polygon id="Fill-5" fill="#422063" mask="url(#mask-2)" points="5.82604615 18.33792 12.6882 35.78432 19.8572769 17.07072 26.7162 35.78432 34.0080462 18.33792 38.3243538 18.33792 26.5482 46.09792 19.7700462 27.60512 12.7043538 46.11392 1.50973846 18.33792"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

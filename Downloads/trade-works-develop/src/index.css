@@ -1,0 +1,151 @@
+@font-face {
+  font-family: 'gillsans_r';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/tw_fonts/GillSans/GillSans-Regular.ttf');
+}
+@font-face {
+  font-family: 'Zapfino';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/tw_fonts/Zapfino/Zapfino.ttf');
+}
+@font-face {
+  font-family: 'Zapfino_bold';
+  font-style: bold;
+  font-weight: 600;
+  src: url('/assets/tw_fonts/Zapfino/Zapfino.ttf');
+}
+@font-face {
+  font-family: 'NeutraText';
+  font-style: normal;
+  font-weight: 400;
+  src : url('/assets/tw_fonts/NeutraText/NeutraText-Book.otf')
+}
+@font-face {
+  font-family: 'NeutraText_bold';
+  font-style: normal;
+  font-weight: 600;
+  src : url('/assets/tw_fonts/NeutraText/NeutraText-Bold.otf')
+}
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/tw_fonts/Pacifico/Pacifico.ttf');
+}
+@font-face {
+  font-family: 'Pacifico_bold';
+  font-style: bold;
+  font-weight: 600;
+  src: url('/assets/tw_fonts/Pacifico/Pacifico.ttf');
+}
+@font-face {
+  font-family: 'ACaslonPro';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/tw_fonts/ACaslonPro/ACaslonPro-Regular.otf');
+}
+@font-face {
+  font-family: 'ACaslonPro_bold';
+  font-style: bold;
+  font-weight: 600;
+  src: url('/assets/tw_fonts/ACaslonPro/ACaslonPro-Regular.otf');
+}
+@font-face {
+  font-family: 'OptimaLT';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/tw_fonts/OptimaLT/Optima-LT');
+}
+@font-face {
+  font-family: 'OptimaLT_bold';
+  font-style: bold;
+  font-weight: 600;
+  src: url('/assets/tw_fonts/OptimaLT/Optima-LT-Bold');
+}
+/* @font-face {
+  font-family: 'AmericanTypewriter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/tw_fonts/AmericanTypewriter/AmericanTypewriter.ttc');
+}
+@font-face {
+  font-family: 'AmericanTypewriter_bold';
+  font-style: bold;
+  font-weight: 600;
+  src: url('/assets/tw_fonts/AmericanTypewriter/AmericanTypewriter.ttc');
+} */
+@font-face {
+  font-family: 'gillsans_sb';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/assets/tw_fonts/GillSans/GillSans-SemiBold.ttf');
+}
+@font-face {
+  font-family: 'gillsans_light';
+  font-style: normal;
+  font-weight: 200;
+  src: url('/assets/tw_fonts/GillSans/GillSans-Light.ttf');
+}
+
+@font-face {
+  font-family: 'gillsans_bold';
+  font-style: bold;
+  font-weight: 800;
+  src: url('/assets/tw_fonts/GillSans/GillSans-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'avenir_black_r';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/tw_fonts/Avenir/Avenir-Black-03.ttf');
+}
+
+@font-face {
+  font-family: 'avenir_book_r';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/tw_fonts/Avenir/Avenir-Book-01.ttf');
+}
+@font-face {
+  font-family: 'avenir_bold';
+  font-style: bold;
+  font-weight: 800;
+  src: url('/assets/tw_fonts/Avenir/Avenir-Heavy-05.ttf');
+}
+@font-face {
+  font-family: 'avenir_light';
+  font-style: normal;
+  font-weight: 200;
+  src: url('/assets/tw_fonts/Avenir/Avenir-Light-07.ttf');
+}
+@font-face {
+  font-family: 'avenir_sb';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/assets/tw_fonts/Avenir/Avenir-Medium-09.ttf');
+}
+@font-face {
+  font-family: 'avenir_roman';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/tw_fonts/Avenir/Avenir-Roman-12.ttf');
+}
+
+body {
+  margin: 0;
+  font-family: 'gillsans_r', 'gillsans_sb', 'gillsans_light', 'gillsans_bold',
+               'avenir_black_r', 'avenir_book_r', 'avenir_bold', 'avenir_light',
+               'avenir_sb', 'avenir_roman',   '"Helvetica Neue"','Zapfino_bold',
+               'Zapfino',
+               'Pacifico',
+               'Pacifico_bold',
+               'ACaslonPro',
+               'ACaslonPro_bold',
+               'OptimaLT',
+               'OptimaLT_bold',
+               'NeutraText',
+               'NeutraText_bold';
+}

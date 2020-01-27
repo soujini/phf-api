@@ -1,0 +1,301 @@
+.modal{
+  padding:25px;
+}
+.header{
+text-align: center;
+
+
+}
+.heading{
+  font-family: GillSans;
+  font-size: 15px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #696969;
+}
+.heading .text-style-1 {
+  font-weight: normal;
+}
+
+.title{
+text-align: center;
+font-family: GillSans;
+font-size: 28px;
+font-weight: 300;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: center;
+color: #4b4b4b;
+}
+.line {
+  width: 447px;
+  /* height: 2px; */
+  border: 2px solid 1px #979797;
+}
+
+.info{
+  padding:0px 65px 0px 65px;
+  text-align: center;
+  font-family: GillSans;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.86;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--black);
+}
+
+.close-button
+{
+  color:red;
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  lineHeight: 20px;
+  right: 12px;
+  top: 12px;
+  opacity:0.3;
+  fontSize: 30px;
+  background: #ffffff;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  padding-top:25px;
+
+height:385px;
+/* overflow-y:hidden; */
+
+  /* overflow: hidden; */
+}
+.box1 {
+  flex: 1 0;
+    height:376px;
+    border-right: 1px solid #979797;
+      padding:10px;
+
+}
+.box2 {
+  flex: 1 0;
+    height:376px;
+    padding:10px;
+
+}
+.box2-show {
+  flex: 1 0;
+    /* border-left: 1px solid #979797; */
+    /* border-bottom: 1px solid #979797; */
+    /* border-left: 1px solid #979797; */
+    /* overflow:visible !important; */
+    /* height:600px !important; */
+    background-color: white;
+
+}
+.box2-hide {
+
+  flex: 1 0;
+    border-left: 1px solid #979797;
+    height:376px;
+    overflow: hidden;
+}
+.flexbox-title{
+font-family: GillSans;
+font-size: 28px;
+font-weight: 300;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: center;
+color: #696969;
+
+}
+ #search > input {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: #979797;
+}
+#search > input:focus {
+  border-color: #979797;
+}
+
+.skills-listItem{
+font-family: GillSans;
+font-size: 16px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.56;
+letter-spacing: normal;
+color: black;
+list-style-type: none;
+text-align: left;
+}
+
+.skills-listItem >div{
+  margin-left:-30px;
+}
+.add-skill-plus{
+  margin-right:10px;
+}
+.pencil-icon{
+  margin-left:10px;
+}
+.army-green{
+  color:#426618;
+}
+
+.more-less{
+  margin-left:-15em;
+  margin-top:-2em;
+  /* padding-top:0.5em; */
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #801fb8;
+  cursor: pointer;
+  /* background-color: white; */
+}
+
+.more-less > label{
+  cursor:pointer;
+}
+
+/* INput Button Add */
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 225px;
+  height:21px;
+  margin-top:10px;
+  /* margin-left:19em; */
+  margin-bottom: 15px;
+  padding-left:10px;
+}
+
+.icon {
+  background: white;
+  color: #410166;
+  /* max-width: 17px; */
+  height:96%;
+  text-align: center;
+  border: solid 1px #979797;
+  font-size:22px;
+  line-height: 0.9;
+  width:22px;
+  font-weight: 600;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #979797;
+  border-right:none;
+  font-family: GillSans;
+font-size: 16px;
+font-weight: 600;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: center;
+color: #410166;
+text-align: left;
+line-height: 2;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+#expand{
+
+  /* background-color: green; */
+  overflow: hidden;
+}
+
+.show{
+overflow:visible !important;
+height:auto;
+
+}
+.hide{
+  overflow: hidden;
+  height:376px;
+}
+/* .skill-bank-ul{
+background-color: gray;
+max-height:400px;
+
+} */
+.skill-bank-ul-show{
+background-color: white;
+max-height:400px;
+    overflow: scroll;
+    /* border: solid 1.5px #410166; */
+    padding-top:5px;
+    padding-bottom:5px;
+
+}
+.skill-bank-ul-hide{
+background-color: white;
+max-height:293px;
+    overflow: hidden;
+    /* border: solid 1.5px #410166; */
+    padding-top:5px;
+    padding-bottom:5px;
+
+}
+.results-div-show{
+  border:solid 2px #410166;
+background-color: white;
+  width:240px;
+}
+.results-div-hide{
+  border:none;
+  width:240px;
+}
+
+.scrollable-element {
+  scrollbar-width: thin !important;
+}
+.flex{
+  display: flex;
+}
+.add-confirm{
+    display: flex;
+    justify-content: space-between;
+}
+.add-confirm-info{
+
+font-family: GillSans;
+font-size: 12px;
+font-weight: 600;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+color: #410260;
+padding:5px;
+padding-top:-5px;
+padding-left:10px;
+}
+.add-confirm-img{
+    margin-top:-10px;
+    padding-right:10px;
+    cursor: pointer;
+}

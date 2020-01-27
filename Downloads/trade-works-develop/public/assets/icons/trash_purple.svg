@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 12 14.8" style="enable-background:new 0 0 12 14.8;" xml:space="preserve">
+<style type="text/css">
+	.st0{filter:url(#Adobe_OpacityMaskFilter);}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st2{mask:url(#mask-2_1_);fill-rule:evenodd;clip-rule:evenodd;fill:#2C1851;}
+	.st3{filter:url(#Adobe_OpacityMaskFilter_1_);}
+	.st4{mask:url(#mask-4_1_);fill-rule:evenodd;clip-rule:evenodd;fill:#2C1851;}
+	.st5{fill:#B4B4B4;}
+	.st6{fill:#A2A2A2;}
+</style>
+<g id="icon-_x2F_-Trash-Can" transform="translate(31.000000, 1.000000)">
+	<g id="Group-7">
+		<g id="Group-3" transform="translate(0.358209, 2.559091)">
+			<defs>
+				<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="-31" y="-1.1" width="11.4" height="12.3">
+					<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+				</filter>
+			</defs>
+			<mask maskUnits="userSpaceOnUse" x="-31" y="-1.1" width="11.4" height="12.3" id="mask-2_1_">
+				<g class="st0">
+					<polygon id="path-1_1_" class="st1" points="-31,-1.1 -19.6,-1.1 -19.6,11.3 -31,11.3 					"/>
+				</g>
+			</mask>
+			<path id="Fill-1" class="st2" d="M-22.3,9.6c0,0.3-0.3,0.6-0.6,0.5c-0.3,0-0.5-0.3-0.5-0.6l0.6-8.6c0-0.3,0.3-0.6,0.6-0.5
+				c0.3,0,0.5,0.3,0.5,0.6L-22.3,9.6z M-24.6,9.6c0,0.3-0.3,0.6-0.6,0.6c-0.3,0-0.6-0.3-0.6-0.6V1c0-0.3,0.3-0.6,0.6-0.6
+				c0.3,0,0.6,0.3,0.6,0.6V9.6z M-27.7,10.1c-0.3,0-0.6-0.2-0.6-0.5L-28.9,1c0-0.3,0.2-0.6,0.5-0.6c0.3,0,0.6,0.2,0.6,0.5l0.6,8.6
+				C-27.2,9.8-27.4,10.1-27.7,10.1L-27.7,10.1z M-31-1.1l1.3,11.6c0,0.4,0.4,0.8,0.8,0.8h7.2c0.4,0,0.8-0.3,0.8-0.8l1.2-11.6H-31z"
+				/>
+		</g>
+		<g id="Group-6" transform="translate(0.000000, 0.181043)">
+			<defs>
+				<filter id="Adobe_OpacityMaskFilter_1_" filterUnits="userSpaceOnUse" x="-31" y="-1.2" width="12" height="2.1">
+					<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+				</filter>
+			</defs>
+			<mask maskUnits="userSpaceOnUse" x="-31" y="-1.2" width="12" height="2.1" id="mask-4_1_">
+				<g class="st3">
+					<polygon id="path-3_1_" class="st1" points="-31,-1.2 -19,-1.2 -19,0.9 -31,0.9 					"/>
+				</g>
+			</mask>
+			<path id="Fill-4" class="st4" d="M-19.5-0.2h-2.5v-0.1c0-0.4-0.3-0.8-0.8-0.8h-4.6c-0.4,0-0.8,0.4-0.8,0.8v0.1h-2.5
+				C-30.8-0.2-31,0-31,0.2v0.3c0,0.3,0.2,0.5,0.4,0.5h11.1c0.2,0,0.4-0.2,0.4-0.5V0.2C-19,0-19.2-0.2-19.5-0.2"/>
+		</g>
+	</g>
+</g>
+</svg>

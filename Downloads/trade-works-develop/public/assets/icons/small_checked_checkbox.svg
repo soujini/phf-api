@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Icon / Check Box Small</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon-/-Check-Box-Small" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon-/-13-x13-square" transform="translate(0.000000, 3.000000)" fill="#FFFFFF" stroke="#979797">
+            <rect id="Rectangle-27" x="0.5" y="0.5" width="12" height="12"></rect>
+        </g>
+        <g id="Icon-/-Check-mark" transform="translate(1.000000, 0.000000)" fill="#426618">
+            <path d="M14.5325125,9.31034483e-05 C14.5325125,9.31034483e-05 7.85648805,4.26032121 4.28576307,11.0600492 C4.28576307,11.0600492 3.87303651,8.34580829 2.39007749,7.93773044 C0.906133439,7.52912941 -9.19354839e-05,8.30186144 -9.19354839e-05,8.30186144 C-9.19354839e-05,8.30186144 1.45627134,10.3595155 2.14234305,12.0519922 C2.8298923,13.744469 3.24163383,15.0000931 3.24163383,15.0000931 L5.41164959,13.5111321 C5.41164959,13.5111321 7.78211847,6.00563878 14.9999081,0.612733053 L14.5325125,9.31034483e-05 Z" id="Fill-1"></path>
+        </g>
+    </g>
+</svg>

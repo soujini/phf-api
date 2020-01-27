@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Icon / Computer Skills</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="19" cy="19" r="19"></circle>
+        <filter x="-10.5%" y="-10.5%" width="121.1%" height="121.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="2" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.72819643   0 0 0 0 0.785183723   0 0 0 0 0.888077446  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-3" points="0 0.26304902 17.1568627 0.26304902 17.1568627 33.627451 0 33.627451"></polygon>
+    </defs>
+    <g id="L-Pack" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="77---Skills-Dashboard-Copy-2" transform="translate(-644.000000, -431.000000)">
+            <g id="Icon-/-Computer-Skills" transform="translate(647.000000, 434.000000)">
+                <g id="Group-4">
+                    <g id="Oval-Copy-8">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use stroke="#99B6EB" stroke-width="2" fill="#000000" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Group-3" transform="translate(11.000000, 2.423225)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M8.61960784,31.7712843 C4.90754902,31.7712843 1.89754902,28.760598 1.89754902,25.0492255 L1.89754902,18.5749118 L15.3416667,18.5749118 L15.3416667,25.0492255 C15.3416667,28.760598 12.3316667,31.7712843 8.61960784,31.7712843 M8.61960784,9.70755882 C12.3316667,9.70755882 15.3416667,12.7175588 15.3416667,16.4296176 L15.3416667,16.7597157 L1.89754902,16.7597157 L1.89754902,16.4296176 C1.89754902,12.7175588 4.90754902,9.70755882 8.61960784,9.70755882 M9.52686275,7.85187255 C9.19676471,4.01628431 6.55735294,3.93393137 4.74284314,3.89206863 C2.84529412,3.85089216 1.89754902,3.80971569 1.89754902,1.21148039 C1.89754902,0.6755 1.48509804,0.26304902 0.948431373,0.26304902 C0.41245098,0.26304902 0,0.6755 0,1.21148039 C0,5.62422549 2.80411765,5.70726471 4.6604902,5.74844118 C6.39264706,5.78961765 7.42343137,5.83079412 7.63,7.85187255 C3.34078431,8.34667647 0,11.9756961 0,16.3884412 L0,25.0492255 C0,29.7920686 3.83558824,33.6276569 8.57843137,33.6276569 C13.3212745,33.6276569 17.1568627,29.7920686 17.1568627,25.0492255 L17.1568627,16.3884412 C17.1980392,11.9756961 13.8160784,8.3055 9.52686275,7.85187255" id="Fill-1" fill="#FFFFFF" mask="url(#mask-4)"></path>
+                    </g>
+                    <path d="M19.6196078,18.1518824 C20.1555882,18.1518824 20.5680392,17.7394314 20.5680392,17.203451 L20.5680392,14.0273725 C20.5680392,13.4913922 20.1555882,13.0789412 19.6196078,13.0789412 C19.0836275,13.0789412 18.6711765,13.4913922 18.6711765,14.0273725 L18.6711765,17.203451 C18.6711765,17.7394314 19.0836275,18.1518824 19.6196078,18.1518824" id="Fill-4" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

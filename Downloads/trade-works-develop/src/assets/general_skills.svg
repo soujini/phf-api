@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Icon / General Skills</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="19" cy="19" r="19"></circle>
+        <filter x="-10.5%" y="-10.5%" width="121.1%" height="121.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="2" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.72819643   0 0 0 0 0.785183723   0 0 0 0 0.888077446  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="L-Pack" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="77---Skills-Dashboard-Copy-2" transform="translate(-359.000000, -526.000000)">
+            <g id="Icon-/-General-Skills" transform="translate(362.000000, 529.000000)">
+                <g id="Group-14">
+                    <g id="Group-2">
+                        <g id="Oval-Copy-11">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use stroke="#99B6EB" stroke-width="2" fill="#000000" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <path d="M25.6875,23.5328 C26.3185,23.5328 26.8125,24.0258 26.8125,24.6578 C26.8125,25.2888 26.3185,25.7828 25.6875,25.7828 C25.0565,25.7828 24.5625,25.2888 24.5625,24.6578 C24.5625,24.0258 25.0565,23.5328 25.6875,23.5328 L25.6875,23.5328 Z M12.1875,23.5328 C12.8185,23.5328 13.3125,24.0258 13.3125,24.6578 C13.3125,25.2888 12.8185,25.7828 12.1875,25.7828 C11.5565,25.7828 11.0625,25.2888 11.0625,24.6578 C11.0625,24.0258 11.5565,23.5328 12.1875,23.5328 L12.1875,23.5328 Z M25.6875,21.0018 L31.3125,21.0018 L31.3125,23.8138 L28.3685,23.8138 C28.0035,22.6808 26.9345,21.8458 25.6875,21.8458 L25.6875,21.0018 Z M25.6875,16.5008 L29.3875,16.5008 L30.7935,19.3138 L25.6875,19.3138 L25.6875,16.5008 Z M7.6875,13.6888 L24.0005,13.6888 L24.0005,22.4258 C23.5415,22.7728 23.1855,23.2568 23.0065,23.8138 L14.8685,23.8138 C14.5045,22.6808 13.4345,21.8458 12.1875,21.8458 C10.9405,21.8458 9.8705,22.6808 9.5065,23.8138 L7.6875,23.8138 L7.6875,13.6888 Z M6.7555,12.0008 C6.3245,12.0468 5.9975,12.4108 6.00047952,12.8448 L6.00047952,24.6578 C6.00047952,25.1238 6.3775,25.5018 6.8435,25.5018 L9.4985,25.5018 C9.8585,26.6388 10.9365,27.4708 12.1875,27.4708 C13.4385,27.4708 14.5165,26.6388 14.8765,25.5018 L22.9985,25.5018 C23.3585,26.6388 24.4365,27.4708 25.6875,27.4708 C26.9385,27.4708 28.0165,26.6388 28.3765,25.5018 L32.1565,25.5018 C32.6225,25.5018 32.9995,25.1238 32.9995,24.6578 L32.9995,20.1578 C32.9995,20.0268 32.9705,19.8968 32.9125,19.7798 L30.6625,15.2798 C30.5185,14.9938 30.2265,14.8128 29.9065,14.8138 L25.6875,14.8138 L25.6875,12.8448 C25.6875,12.3788 25.3095,12.0008 24.8435,12.0008 L6.8435,12.0008 C6.8145,11.9998 6.7855,11.9998 6.7555,12.0008 L6.7555,12.0008 Z" id="Fill-1" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

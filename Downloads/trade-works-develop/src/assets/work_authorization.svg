@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Icon / Work Authorization</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="19" cy="19" r="19"></circle>
+        <filter x="-10.5%" y="-10.5%" width="121.1%" height="121.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="2" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.72819643   0 0 0 0 0.785183723   0 0 0 0 0.888077446  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="L-Pack" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="77---Skills-Dashboard-Copy-2" transform="translate(-645.000000, -525.000000)">
+            <g id="Icon-/-Work-Authorization" transform="translate(648.000000, 528.000000)">
+                <g id="Group-13">
+                    <g id="Oval-Copy-8">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use stroke="#99B6EB" stroke-width="2" fill="#000000" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Group-6" transform="translate(7.000000, 7.000000)">
+                        <polygon id="Path" fill="#FFFFFF" points="20.1607143 0 20.1607143 2.02857143 4.83928571 2.02857143 4.83928571 0 0 0 0 4.83928571 2.02857143 4.83928571 2.02857143 20.1616071 0 20.1616071 0 25 4.83928571 25 4.83928571 23.2910714 20.1616071 23.2910714 20.1616071 25 25 25 25 20.1607143 23.2901786 20.1607143 23.2901786 4.83928571 25 4.83928571 25 0"></polygon>
+                        <polygon id="Path" fill="#000000" points="2.80982143 4.83928571 4.83928571 4.83928571 4.83928571 2.80982143 20.1616071 2.80982143 20.1616071 4.83839286 22.5098214 4.83839286 22.5098214 20.1607143 20.1616071 20.1607143 20.1616071 22.5098214 4.83928571 22.5098214 4.83928571 20.1607143 2.80982143 20.1607143"></polygon>
+                        <polygon id="Path" fill="#FFFFFF" points="10.4428571 8.62321429 12.8580357 11.0366071 6.45089286 17.44375 7.55714286 18.5491071 13.9616071 12.1419643 16.3767857 14.55625 18.5491071 6.45089286"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

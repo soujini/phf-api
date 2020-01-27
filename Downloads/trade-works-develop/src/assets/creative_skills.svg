@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Icon / Creative Skills</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="19" cy="19" r="19"></circle>
+        <filter x="-10.5%" y="-10.5%" width="121.1%" height="121.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="2" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.72819643   0 0 0 0 0.785183723   0 0 0 0 0.888077446  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="L-Pack" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="77---Skills-Dashboard-Copy-2" transform="translate(-359.000000, -432.000000)">
+            <g id="Icon-/-Creative-Skills" transform="translate(362.000000, 435.000000)">
+                <g id="Oval-Copy-8">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use stroke="#99B6EB" stroke-width="2" fill="#000000" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <path d="M21.837,24.4024 C22.086,23.1584 22.882,21.7644 24.873,19.4254 C27.263,16.5884 28.108,10.5154 23.38,7.1814 C28.557,13.4024 24.624,18.1814 23.629,19.4254 C22.235,21.1174 21.737,23.5064 21.837,24.4024 L21.837,24.4024 Z" id="Path" fill="#FFFFFF" fill-rule="evenodd"></path>
+                <polygon id="Path" fill="#FFFFFF" fill-rule="evenodd" points="21.041 16.2894 17.607 13.9504 19.498 11.1634 15.316 14.5474 18.701 16.7874 16.412 20.3714"></polygon>
+                <path d="M18.95,3.0004 C12.629,3.0004 8,7.6294 8,14.0494 C8,17.8824 9.991,20.4214 11.584,22.4114 C12.48,23.5564 13.276,24.5514 13.375,25.3984 L13.724,27.9364 L15.416,27.9364 L15.018,24.9504 C14.869,23.7064 14.023,22.6104 12.978,21.3174 C11.484,19.4254 9.842,17.3354 9.842,14.0994 C9.842,8.6244 13.574,4.8414 19,4.8414 C24.375,4.8414 28.158,8.6244 28.158,14.0994 C28.158,17.3354 26.466,19.4254 25.023,21.3174 C24.027,22.6104 23.131,23.7064 22.982,24.9504 L22.584,27.9364 L24.276,27.9364 L24.624,25.3984 C24.724,24.5514 25.471,23.5564 26.416,22.4114 C28.009,20.3714 30,17.8824 30,14.0494 C29.9,7.6784 25.272,3.0004 18.95,3.0004 L18.95,3.0004 Z" id="Path" fill="#FFFFFF" fill-rule="evenodd"></path>
+                <path d="M22.484,33.1134 L15.416,33.1134 C14.918,33.1134 14.521,33.5114 14.521,34.0084 C14.521,34.5064 14.918,34.9054 15.416,34.9054 L22.534,34.9054 C23.031,34.9054 23.43,34.5064 23.43,34.0084 C23.43,33.5614 22.982,33.1134 22.484,33.1134 L22.484,33.1134 Z" id="Path" fill="#FFFFFF" fill-rule="evenodd"></path>
+                <path d="M23.778,30.8234 L14.122,30.8234 C13.624,30.8234 13.227,31.2214 13.227,31.7194 C13.227,32.2164 13.624,32.6154 14.122,32.6154 L23.778,32.6154 C24.276,32.6154 24.674,32.2164 24.674,31.7194 C24.674,31.2214 24.276,30.8234 23.778,30.8234 L23.778,30.8234 Z" id="Path" fill="#FFFFFF" fill-rule="evenodd"></path>
+                <path d="M23.828,28.5344 L14.072,28.5344 C13.574,28.5344 13.177,28.9314 13.177,29.4294 C13.177,29.9274 13.574,30.3264 14.072,30.3264 L23.828,30.3264 C24.326,30.3264 24.724,29.9274 24.724,29.4294 C24.774,28.9314 24.326,28.5344 23.828,28.5344 L23.828,28.5344 Z" id="Path" fill="#FFFFFF" fill-rule="evenodd"></path>
+            </g>
+        </g>
+    </g>
+</svg>

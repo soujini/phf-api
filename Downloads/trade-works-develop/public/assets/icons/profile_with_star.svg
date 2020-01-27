@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="31px" viewBox="0 0 13 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Icon / Resume</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon-/-Resume" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-7" stroke="#000000">
+            <polygon id="Stroke-1" stroke-width="1.604" stroke-linejoin="round" points="6.4473 0.8017 8.1923 4.3367 12.0933 4.9037 9.2703 7.6557 9.9363 11.5407 6.4473 9.7057 2.9583 11.5407 3.6243 7.6557 0.8013 4.9037 4.7023 4.3367"></polygon>
+            <path d="M10.0635,18.9951 C10.0635,20.9201 8.5025,22.4801 6.5775,22.4801 C4.6525,22.4801 3.0925,20.9201 3.0925,18.9951 C3.0925,17.0701 4.6525,15.5101 6.5775,15.5101 C8.5025,15.5101 10.0635,17.0701 10.0635,18.9951 Z" id="Stroke-3" stroke-width="2"></path>
+            <path d="M11.6358,29.1406 C11.6358,25.4906 9.3128,22.5316 6.4468,22.5316 C3.5808,22.5316 1.2578,25.4906 1.2578,29.1406 L1.2578,30.0646 L11.6358,30.0646 L11.6358,29.1406 Z" id="Stroke-5" stroke-width="2"></path>
+        </g>
+    </g>
+</svg>
