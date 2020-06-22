@@ -28,6 +28,7 @@ var smtpTransport = nodemailer.createTransport({
 });
 
 app.get('/send',function(req,res){
+  console.log("tryin to send email");
   var mailOptions={
     from: req.body.email,
     to : "soujanya.venkatesh@gmail.com",
