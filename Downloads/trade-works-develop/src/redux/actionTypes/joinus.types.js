@@ -1,8 +1,0 @@
-const types = {
-  JOIN_US: "JOIN_US",
-  RESET_ERR_MSG: "RESET_ERR_MSG",
-  FETCHED_INSTITUTES: "FETCHED_INSTITUTES",
-  FETCHED_TRADES: "FETCHED_TRADES"
-};
-
-export default types;

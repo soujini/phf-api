@@ -1,3 +1,0 @@
-import './button_stories';
-import './radio_button_stories';
-import './custom_label_stories';
