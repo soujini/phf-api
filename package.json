@@ -2,9 +2,8 @@
   "name": "phf-api",
   "version": "1.0.0",
   "description": "PHF API's in Node JS",
-  "main": "app.js",
   "scripts": {
-    "start": "node .",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jackfruit Solutions",
