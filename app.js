@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 var app=express();
 
 const hostname = '127.0.0.1';
-const port = 3000;
+const port = process.env.port || 3000;
 
 app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
