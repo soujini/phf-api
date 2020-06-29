@@ -1,6 +1,6 @@
 var express=require('express');
 var nodemailer = require("nodemailer");
-const bodyParser = require("body-parser");
+var bodyParser = require('body-parser');
 var app=express();
 
 const hostname = '127.0.0.1';
@@ -11,10 +11,8 @@ app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
   next();
 });
-app.use(bodyParser.urlencoded({
-    extended: false
-}));
 
+app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json());
 
 var smtpTransport = nodemailer.createTransport({
@@ -22,13 +20,13 @@ var smtpTransport = nodemailer.createTransport({
   host: "smtp.gmail.com",
   secure: false,
   auth: {
-    user: "soujanya.venkatesh@gmail.com",
-    pass: "yedhqynoligpywhl"
+    user: "prataphealthfoods@gmail.com",
+    pass: "euyfyacqlbmuvxnj"
   }
 });
 
-app.get('/send',function(req,res){
-  console.log("tryin to send email");
+app.post('/send',function(req,res){
+  console.log("tryin to send email "+req.body.name);
   var mailOptions={
     from: req.body.email,
     to : "soujanya.venkatesh@gmail.com",
