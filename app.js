@@ -29,7 +29,7 @@ app.post('/send',function(req,res){
   console.log("tryin to send email "+req.body.name);
   var mailOptions={
     from: req.body.email,
-    to : "soujanya.venkatesh@gmail.com",
+    to : "hello@prataphealthfoods.com",
     subject : "Enquiry",
     html : "<div><p>Hello,<p>Name: " +req.body.name+"</p><p>Email: "+req.body.email+"</p><p>Subject: "+req.body.subject+"</p><p>Message: "+req.body.message+"</p><p>Thanks,</p><p>Pratap Health & Foods (India) Private Limited</p></div>"
   }
