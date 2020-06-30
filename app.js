@@ -24,15 +24,15 @@ var smtpTransport = nodemailer.createTransport({
   host: "smtp.gmail.com",
   secure: false,
   auth: {
-    user: process.env.USER_EMAIL,
-    pass: process.env.PASS_EMAIL
+    user: 'prataphealthfoods@gmail.com',
+    pass: 'euyfyacqlbmuvxnj'
   }
 });
 
 app.post('/send',function(req,res){
   var mailOptions={
     from: req.body.email,
-    to : "soujanya.venkatesh@gmail.com",
+    to : "hello@prataphealthfoods.com",
     subject : "Enquiry",
     html : "<div><p>Hello,<p>Name: " +req.body.name+"</p><p>Email: "+req.body.email+"</p><p>Subject: "+req.body.subject+"</p><p>Message: "+req.body.message+"</p><p>Thanks,</p><p>Pratap Health & Foods (India) Private Limited</p></div>"
   }
