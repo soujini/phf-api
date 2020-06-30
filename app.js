@@ -2,6 +2,7 @@ var express=require('express');
 var nodemailer = require("nodemailer");
 var bodyParser = require('body-parser');
 var app=express();
+const dotenv = require('dotenv').config();
 
 const hostname = '127.0.0.1';
 const port = process.env.PORT || 3000;
@@ -20,13 +21,12 @@ var smtpTransport = nodemailer.createTransport({
   host: "smtp.gmail.com",
   secure: false,
   auth: {
-    user: "prataphealthfoods@gmail.com",
-    pass: "euyfyacqlbmuvxnj"
+    user: process.env.USER_EMAIL,
+    pass: process.env.PASS_EMAIL
   }
 });
 
 app.post('/send',function(req,res){
-  console.log("tryin to send email "+req.body.name);
   var mailOptions={
     from: req.body.email,
     to : "hello@prataphealthfoods.com",
