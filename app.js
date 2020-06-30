@@ -3,7 +3,12 @@ var nodemailer = require("nodemailer");
 var bodyParser = require('body-parser');
 var app=express();
 const path = require('path');
-const dotenv = require('dotenv').config({ path: path.join(__dirname, '.env') });
+const dotenv = require('dotenv').config({ path: path.join(__dirname, '../.env') });
+
+// const dotenv = require('dotenv')
+// dotenv.config({
+//   path: path.join(__dirname, '../.env'),
+// })
 
 // require('dotenv').config({ path: path.join(__dirname, '.env') });
 
@@ -30,7 +35,7 @@ var smtpTransport = nodemailer.createTransport({
 });
 
 app.post('/send',function(req,res){
-  console.log(process.env.USER_EMAIL);
+  console.log("souj "+process.env.USER_EMAIL);
   var mailOptions={
     from: req.body.email,
     to : "soujanya.venkatesh@gmail.com",
