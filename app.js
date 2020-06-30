@@ -30,8 +30,8 @@ app.post('/send',function(req,res){
   var mailOptions={
     from: req.body.email,
     to : "soujanya.venkatesh@gmail.com",
-    subject : req.body.subject,
-    html : "<div><p>Hello,<p>Name: " +req.body.name+"</p><p>Email: "+req.body.email+"</p><p>Message: "+req.body.message+"</p><p>Thanks,</p><p>Pratap Health & Foods (India) Private Limited</p></div>"
+    subject : "Enquiry",
+    html : "<div><p>Hello,<p>Name: " +req.body.name+"</p><p>Email: "+req.body.email+"</p><p>Subject: "+req.body.subject+"</p><p>Message: "+req.body.message+"</p><p>Thanks,</p><p>Pratap Health & Foods (India) Private Limited</p></div>"
   }
   smtpTransport.sendMail(mailOptions, function(error, response){
     if(error){
